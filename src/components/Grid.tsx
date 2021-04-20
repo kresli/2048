@@ -1,11 +1,4 @@
-import {
-  FunctionComponent,
-  RefObject,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-} from "react";
+import { FunctionComponent, useEffect, useMemo, useState } from "react";
 import { animated, Transition, useSpring } from "react-spring";
 import { Card, useBoard, useKeyDown } from "src/hooks";
 import styled from "styled-components";
